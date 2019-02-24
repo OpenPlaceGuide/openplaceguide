@@ -46,7 +46,10 @@ It combines data from the OpenStreetMap project, as well as additional informati
 ### OBM-website
 
 * Website displaying this information
+* Proper SEO for the business pages
+* Support subdomain, path (or own domain??)
+* Proper Rich Snippetes
 
 ### OBM-wp
 
-* Wordpress Widget showing the OpenStreetMap based information, encouraging editing the data in OSM, instead of the page itself
+* Wordpress Widget showing the OpenStreetMap based information, encouraging editing the data in OSM, instead of the page itself, Kick-start pagegenerator -> From Micropage to WordPress website
