@@ -32,8 +32,10 @@ It combines data from the OpenStreetMap project, as well as additional informati
 * Products offered
 * Makes offered
 * Pictures
-* Videos
+* Videos (mostly as YouTube / Vimeo etc. links) ?
+* Menu cards (pictures as well as structured, text based information)
 * Micropage content, multilinguage
+* Mapillary Links
 * Editing of all data, push data to the OpenStreetMap servers which belongs there (with or without further review)
 
 ### OBM-integrity
