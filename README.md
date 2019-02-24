@@ -34,16 +34,16 @@ It combines data from the OpenStreetMap project, as well as additional informati
 * Pictures
 * Videos
 * Micropage content, multilinguage
+* Editing of all data, push data to the OpenStreetMap servers which belongs there (with or without further review)
 
 ### OBM-integrity
-* Caching latest OpenStreetMap
-* ability to LOCK reviewed data
+* Caching latest OpenStreetMap data
+* ability to LOCK to reviewed data version of the OSM data
 * Send out notifications in case of changes for approval
 
 ### OBM-website
 
 * Website displaying this information
-
 
 ### OBM-wp
 
