@@ -1,0 +1,6 @@
+[submodule "openstreetmap-carto-am"]
+	path = openstreetmap-carto-am
+	url = git@github.com:AddisMap/openstreetmap-carto.git
+[submodule "openstreetmap-carto"]
+	path = openstreetmap-carto
+	url = git@github.com:AddisMap/openstreetmap-carto.git

@@ -1,0 +1,63 @@
+version: '2'
+services:
+  kosmtik:
+    image: kosmtik:v1
+    build:
+      context: openstreetmap-carto
+      dockerfile: openstreetmap-carto/Dockerfile
+    volumes:
+      - ./openstreetmap-carto:/openstreetmap-carto
+    depends_on:
+      - db
+    ports:
+      - "127.0.0.1:6789:6789"
+    environment:
+      - PGHOST=db
+      - PGUSER=postgres
+  db:
+    image: db:v1
+    build:
+      context: openstreetmap-carto
+      dockerfile: openstreetmap-carto/Dockerfile.db
+    ports:
+      - "127.0.0.1:5432:5432"
+    environment:
+      - PG_WORK_MEM
+      - PG_MAINTENANCE_WORK_MEM
+  import:
+    image: import:v1
+    build:
+      context: openstreetmap-carto
+      dockerfile: openstreetmap-carto/Dockerfile.import
+    volumes:
+      - ./openstreetmap-carto:/openstreetmap-carto
+    depends_on:
+      - db
+    environment:
+      - PGHOST=db
+      - PGUSER=postgres
+      - PG_WORK_MEM
+      - PG_MAINTENANCE_WORK_MEM
+      - OSM2PGSQL_CACHE
+      - OSM2PGSQL_NUMPROC
+      - OSM2PGSQL_DATAFILE
+  reimage:
+    image: larrabee/reimage:1.0.12
+    restart: always
+    ports:
+      - 7075:7075
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - tile-front-resize-cache:/var/www/resize_cache
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
+    ports:
+      - 8080:80
+
+volumes:
+  tile-front-resize-cache:
