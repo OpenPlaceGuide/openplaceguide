@@ -3,6 +3,19 @@
 OpenBusinessMap will be a free and open source business directory, based on the OpenStreetMap project.
 It combines data from the OpenStreetMap project, as well as additional information about businesses.
 
+    Open Business Map - OpenStreetMap-based business directory
+    Copyright (C) 2019-2021  Bandira Addis Map Entertainment PLC, Addis Ababa
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.  
+
 ## User Stories
 
 * As a business owner I want to present my information on a website
