@@ -16,6 +16,10 @@ It combines data from the OpenStreetMap project, as well as additional informati
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU Affero General Public License for more details.  
 
+## Vision
+
+Creating a modern OpenStreetMap based website with the functionality of www.addismap.com, fully Open Source.
+
 ## User Stories
 
 * As a business owner I want to present my information on a website
