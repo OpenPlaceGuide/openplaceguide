@@ -24,6 +24,8 @@ It combines data from the OpenStreetMap project, as well as additional informati
 
 * As a user and business owner I am interested in accurate data in OpenStreetMap.
 
+* As a business guide facilitator I want to earn money by helping business to get on my business guide page via adding them to OpenStreetMap and use the raised money to sustain OpenStreetMap mapping.
+
 ## Data
 
 ### OpenStreetMap
