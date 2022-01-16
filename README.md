@@ -40,7 +40,7 @@ It combines data from the OpenStreetMap project, as well as additional informati
 
 ### OBM-directory
 
-* Link to OSM Point (Special negative ids, containing non public items, are supported)
+* Link to OSM Object
 * Services offered
 * Products offered
 * Makes offered
@@ -50,6 +50,10 @@ It combines data from the OpenStreetMap project, as well as additional informati
 * Micropage content, multilinguage
 * Mapillary Links
 * Editing of all data, push data to the OpenStreetMap servers which belongs there (with or without further review)
+
+The current idea is to keep the directory information in a GitHub repository and allow everybody to make pull requests to add new business informations.
+
+Adding businesses / shoting photos / writing texts can be additionally done as a paid service. Businesses offering this, shall invest into generally mapping the area they are active in OpenStreetMap.
 
 ### OBM-integrity
 * Caching latest OpenStreetMap data
