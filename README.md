@@ -1,6 +1,6 @@
-# OpenBusinessMap
+# OpenPlaceGuide
 
-OpenBusinessMap will be a free and open source business directory, based on the OpenStreetMap project.
+OpenPlaceGuide will be a free and open source business directory, based on the OpenStreetMap project.
 It combines data from the OpenStreetMap project, as well as additional information about businesses.
 
     Open Business Map - OpenStreetMap-based business directory
@@ -38,13 +38,13 @@ Creating a modern OpenStreetMap based website with the functionality of www.addi
 * Location data
 * Opening Times
 
-### OpenBusinessMap
+### OpenPlaceGuide
 
 * All the additional data, see components below
 
 ## Componets (draft)
 
-### OBM-directory
+### OPG-directory
 
 * Link to OSM Object
 * Services offered
@@ -61,18 +61,18 @@ The current idea is to keep the directory information in a GitHub repository and
 
 Adding businesses / shoting photos / writing texts can be additionally done as a paid service. Businesses offering this, shall invest into generally mapping the area they are active in OpenStreetMap.
 
-### OBM-integrity
+### OPG-integrity
 * Caching latest OpenStreetMap data
 * ability to LOCK to reviewed data version of the OSM data
 * Send out notifications in case of changes for approval
 
-### OBM-website
+### OPG-website
 
 * Website displaying this information
 * Proper SEO for the business pages
 * Support subdomain, path (or own domain??)
 * Proper Rich Snippetes
 
-### OBM-wp
+### OPG-wp
 
 * Wordpress Widget showing the OpenStreetMap based information, encouraging editing the data in OSM, instead of the page itself, Kick-start pagegenerator -> From Micropage to WordPress website
