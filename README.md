@@ -4,7 +4,7 @@ OpenPlaceGuide will be a free and open source business directory, based on the O
 It combines data from the OpenStreetMap project, as well as additional information about businesses.
 
     Open Business Map - OpenStreetMap-based business directory
-    Copyright (C) 2019-2022  Bandira Addis Map Entertainment PLC, Addis Ababa
+    Copyright (C) 2019-2023  Bandira Addis Map Entertainment PLC, Addis Ababa
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
@@ -15,6 +15,10 @@ It combines data from the OpenStreetMap project, as well as additional informati
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU Affero General Public License for more details.  
+
+## Organization
+
+This is the main organizational repository without any code. Check the [issues](https://github.com/OpenPlaceGuide/openplaceguide/issues) section for details.
 
 ## Vision
 
