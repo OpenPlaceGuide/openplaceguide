@@ -59,7 +59,7 @@ and 3rd party websites can discover those pages.
 
 The API is centrally hosted at cloudflare and reachable at [https://discover.openplaceguide.org/](https://discover.openplaceguide.org/)
 
-### OPG-directory
+### [OPG-directory]((https://github.com/OpenPlaceGuide/data)
 
 * Link to OSM Object, or multiple OSM objects (for chains / banks etc., i.e. branches)
 * Services offered
@@ -76,13 +76,6 @@ The current idea is to keep the directory information in a GitHub repository and
 
 Adding businesses / shooting photos / writing texts can be additionally done as a paid service. Businesses offering this, shall invest into generally mapping the area they are active in OpenStreetMap.
 
-In the current version this is a [git repository (example)](https://github.com/OpenPlaceGuide/data).
-
-### OPG-integrity
-
-* Caching latest OpenStreetMap data
-* ability to LOCK to reviewed data version of the OSM data
-* Send out notifications in case of changes for approval
 
 ### [OPG-pages](https://github.com/OpenPlaceGuide/opg-pages)
 
@@ -90,6 +83,12 @@ In the current version this is a [git repository (example)](https://github.com/O
 * Proper SEO for the business pages
 * Support subdomain, path (or own domain?)
 * Proper Rich Snippets
+
+### OPG-integrity
+
+* Caching latest OpenStreetMap data
+* ability to LOCK to reviewed data version of the OSM data
+* Send out notifications in case of changes for approval
 
 ### OPG-wp
 
