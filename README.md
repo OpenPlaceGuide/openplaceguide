@@ -99,6 +99,6 @@ In the current version this is a [git repository (example)](https://github.com/O
 
 * For the main page we plan to use and contribute(d) to [OsmAPP](https://osmapp.org/)
 * For reviews we plan to use and contribute(d) to [Mangrove](https://mangrove.reviews/)
-* Tile server for African projects is hosted by us [OPG Africa Tiles](https://africa.tiles.openplaceguide.org/) which is a [Makina Maps](https://github.com/makina-maps/makina-maps) instance.
+* Tile server [OPG Africa Tiles](https://africa.tiles.openplaceguide.org/) - a [Makina Maps](https://github.com/makina-maps/makina-maps) instance - for African projects is sponsored  by [BAME PLC](https://addismap.com/bandira).
 * As default we use the [Overpass Server by KUMI](https://overpass.kumi.systems/)
 * And of course all this would not be possible without [OpenStreetMap](https://osm.org)
