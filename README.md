@@ -63,7 +63,7 @@ and 3rd party websites can discover those pages.
 
 The API is centrally hosted at cloudflare and reachable at [https://discover.openplaceguide.org/](https://discover.openplaceguide.org/)
 
-### [OPG-directory]((https://github.com/OpenPlaceGuide/data)
+### [OPG-directory](https://github.com/OpenPlaceGuide/data)
 
 * Link to OSM Object, or multiple OSM objects (for chains / banks etc., i.e. branches)
 * Services offered
