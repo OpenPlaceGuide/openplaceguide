@@ -36,6 +36,10 @@ Creating a modern OpenStreetMap based website with the functionality of www.addi
 
 * As a business guide facilitator I want to earn money by helping business to get on my business guide page via adding them to OpenStreetMap and use the raised money to sustain OpenStreetMap mapping.
 
+## Introduce yourself!
+
+OpenPlaceGuide is in an early phase - we look for contributors and partners. [Introduce yourself](https://github.com/OpenPlaceGuide/openplaceguide/discussions/15)
+
 ## Data
 
 ### OpenStreetMap
