@@ -3,8 +3,8 @@
 OpenPlaceGuide (OPG) will be a free and open source business directory, based on the OpenStreetMap project.
 It combines data from the OpenStreetMap project, as well as additional information about businesses.
 
-    Open Business Map - OpenStreetMap-based business directory
-    Copyright (C) 2019-2023  Bandira Addis Map Entertainment PLC, Addis Ababa
+    OpenPlaceGuide - OpenStreetMap-based business directory
+    Copyright (C) 2019-2024  Bandira Addis Map Entertainment PLC, Addis Ababa
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
