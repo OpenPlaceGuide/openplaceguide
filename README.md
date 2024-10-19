@@ -100,7 +100,7 @@ Adding businesses / shooting photos / writing texts can be additionally done as 
 
 ## Related projects / Acknowledgements / Contributions
 
-* For the main page we plan to use and contribute(d) to [OsmAPP](https://osmapp.org/)
+* For the main page we use and contribute(d) to [OsmAPP](https://osmapp.org/)
 * For reviews we plan to use and contribute(d) to [Mangrove](https://mangrove.reviews/)
 * Tile server [OPG Africa Tiles](https://africa.tiles.openplaceguide.org/) - a [Makina Maps](https://github.com/makina-maps/makina-maps) instance - for African projects is sponsored  by [BAME PLC](https://addismap.com/bandira).
 * As default we use the [Overpass Server by KUMI](https://overpass.kumi.systems/)
